@@ -43,24 +43,47 @@
         "extensions": [".js", ".jsx"]
       }
     ],
-    "react-native/sort-styles": ["error", "asc", { "ignoreClassNames": false, "ignoreStyleProperties": false }],
+    "react-native/sort-styles": ["error", "asc", { "ignoreClassNames": true, "ignoreStyleProperties": false }],
     "react-native/split-platform-components": 2,
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-direct-mutation-state": 2,
     "react/jsx-uses-vars": 2,
     "react/require-default-props": 1,
+    "react/self-closing-comp": 2,
+    "react/jsx-indent": [0],
+    "react/sort-comp": [0],
+    "react/destructuring-assignment": [0],
+    "react/forbid-prop-types": [0],
+    "react/prefer-stateless-function": 1,
+    "react-native/no-unused-styles": 0,
+    "react/no-multi-comp": 1,
+    "react/jsx-no-bind": 2,
+    "react/jsx-no-duplicate-props": 2,
+    "react/prop-types": 1,
+    "react/no-unescaped-entities": [
+      "error",
+      {
+        "forbid": [">", "}"]
+      }
+    ],
+    "import/no-unresolved": 1,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "import/prefer-default-export": 1,
     "no-unused-vars": [
       "warn",
       {
         "varsIgnorePattern": "React"
       }
     ],
-    "react/prop-types": 1,
+    "global-require": 0,
     "no-undef": 2,
     "semi": 2,
-    "react/jsx-no-bind": 2,
-    "react/jsx-no-duplicate-props": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": 0,
     "space-in-parens": 2,
@@ -76,7 +99,6 @@
     "keyword-spacing": 2,
     "key-spacing": 2,
     "indent": ["error", 2],
-
     "func-call-spacing": 2,
     "array-bracket-spacing": 2,
     "block-spacing": 2,
@@ -84,26 +106,6 @@
     "arrow-body-style": 2,
     "arrow-parens": 2,
     "arrow-spacing": 2,
-    "react/self-closing-comp": 2,
-
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": true
-      }
-    ],
-    "import/prefer-default-export": 1,
-
-    "react/jsx-indent": [0],
-    "react/sort-comp": [0],
-    "react/destructuring-assignment": [0],
-    "react/forbid-prop-types": [0],
-    "react/no-unescaped-entities": [
-      "error",
-      {
-        "forbid": [">", "}"]
-      }
-    ],
     "quotes": [
       "error",
       "double",
@@ -114,23 +116,17 @@
     ],
     "jsx-quotes": ["error", "prefer-double"],
     "camelcase": 1,
-
     "no-console": 2,
     "comma-dangle": 0,
     "no-use-before-define": 0,
     "quote-props": 1,
-    "react/prefer-stateless-function": 1,
     "padded-blocks": 0,
     "no-shadow": 1,
     "no-return-assign": 1,
     "no-case-declarations": 1,
-    "react-native/no-unused-styles": 0,
     "no-underscore-dangle": 0,
-    "global-require": 0,
-    "import/no-unresolved": 1,
     "no-param-reassign": 0,
     "consistent-return": 1,
-    "react/no-multi-comp": 1,
     "no-confusing-arrow": 0
   }
 }

@@ -1,0 +1,675 @@
+[
+  {
+    "maxResults": 50,
+    "startAt": 70,
+    "isLast": false,
+    "values": [
+      {
+        "id": 368,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/368",
+        "state": "closed",
+        "name": "Matrix",
+        "startDate": "2017-03-28T09:26:55.973+03:00",
+        "endDate": "2017-04-07T18:12:00.000+03:00",
+        "completeDate": "2017-04-10T14:41:30.687+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 374,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/374",
+        "state": "closed",
+        "name": "Şafak Sıkıştırması",
+        "startDate": "2017-03-14T14:03:45.009+02:00",
+        "endDate": "2017-03-23T21:33:00.000+02:00",
+        "completeDate": "2017-04-10T16:36:18.259+03:00",
+        "originBoardId": 57
+      },
+      {
+        "id": 375,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/375",
+        "state": "closed",
+        "name": "Logan",
+        "startDate": "2017-04-11T09:19:07.634+03:00",
+        "endDate": "2017-04-28T16:49:00.000+03:00",
+        "completeDate": "2017-05-02T10:07:09.730+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 384,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/384",
+        "state": "closed",
+        "name": "Revolver",
+        "startDate": "2017-05-03T09:05:36.055+03:00",
+        "endDate": "2017-05-12T17:35:00.000+03:00",
+        "completeDate": "2017-05-15T11:11:21.054+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 395,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/395",
+        "state": "closed",
+        "name": "Guardian of the Galaxy",
+        "startDate": "2017-05-16T08:57:52.097+03:00",
+        "endDate": "2017-05-26T18:27:00.000+03:00",
+        "completeDate": "2017-05-29T10:33:22.637+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 400,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/400",
+        "state": "closed",
+        "name": "World's Fastest Indian",
+        "startDate": "2017-05-30T09:28:11.874+03:00",
+        "endDate": "2017-06-09T18:58:00.000+03:00",
+        "completeDate": "2017-06-12T10:13:34.593+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 402,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/402",
+        "state": "closed",
+        "name": "October Sky",
+        "startDate": "2017-06-13T09:56:34.347+03:00",
+        "endDate": "2017-06-23T19:26:00.000+03:00",
+        "completeDate": "2017-07-03T10:34:58.250+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 408,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/408",
+        "state": "closed",
+        "name": "Ironman",
+        "startDate": "2017-07-04T09:45:34.740+03:00",
+        "endDate": "2017-07-14T19:15:00.000+03:00",
+        "completeDate": "2017-07-17T10:43:16.662+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 409,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/409",
+        "state": "closed",
+        "name": "Thor",
+        "startDate": "2017-07-18T10:20:50.556+03:00",
+        "endDate": "2017-07-28T19:50:00.000+03:00",
+        "completeDate": "2017-07-31T10:16:39.899+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 410,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/410",
+        "state": "closed",
+        "name": "Captain America",
+        "startDate": "2017-07-31T16:43:32.126+03:00",
+        "endDate": "2017-08-11T02:13:00.000+03:00",
+        "completeDate": "2017-08-14T14:48:44.564+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 411,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/411",
+        "state": "closed",
+        "name": "Avengers",
+        "startDate": "2017-08-15T11:07:08.194+03:00",
+        "endDate": "2017-08-30T20:37:00.000+03:00",
+        "completeDate": "2017-09-05T10:17:59.133+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 441,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/441",
+        "state": "closed",
+        "name": "Doctor Strange",
+        "startDate": "2017-09-06T09:00:00.000+03:00",
+        "endDate": "2017-09-18T18:00:00.000+03:00",
+        "completeDate": "2017-09-19T10:37:53.342+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 453,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/453",
+        "state": "closed",
+        "name": "Fargo",
+        "startDate": "2017-09-20T09:00:00.000+03:00",
+        "endDate": "2017-10-02T18:00:00.000+03:00",
+        "completeDate": "2017-10-03T08:55:15.893+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 458,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/458",
+        "state": "closed",
+        "name": "Prison Break",
+        "startDate": "2017-10-04T13:00:00.000+03:00",
+        "endDate": "2017-10-16T18:00:00.000+03:00",
+        "completeDate": "2017-10-17T09:41:00.441+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 466,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/466",
+        "state": "closed",
+        "name": "Spartacus",
+        "startDate": "2017-10-18T09:00:00.000+03:00",
+        "endDate": "2017-10-30T17:00:00.000+02:00",
+        "completeDate": "2017-10-31T09:59:29.471+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 467,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/467",
+        "state": "closed",
+        "name": "Narcos",
+        "startDate": "2017-11-01T08:00:34.729+02:00",
+        "endDate": "2017-11-13T17:00:00.000+02:00",
+        "completeDate": "2017-11-14T10:05:07.090+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 472,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/472",
+        "state": "closed",
+        "name": "Breaking Bad",
+        "startDate": "2017-11-15T07:00:00.000+02:00",
+        "endDate": "2017-11-27T17:00:00.000+02:00",
+        "completeDate": "2017-11-28T10:18:44.265+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 482,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/482",
+        "state": "closed",
+        "name": "True Detective",
+        "startDate": "2017-11-29T08:00:00.000+02:00",
+        "endDate": "2017-12-11T17:00:00.000+02:00",
+        "completeDate": "2017-12-12T09:27:41.177+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 488,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/488",
+        "state": "closed",
+        "name": "House of Cards",
+        "startDate": "2017-12-13T08:00:00.000+02:00",
+        "endDate": "2017-12-25T17:00:00.000+02:00",
+        "completeDate": "2017-12-26T09:35:18.823+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 495,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/495",
+        "state": "closed",
+        "name": "Vikings",
+        "startDate": "2017-12-27T08:00:00.000+02:00",
+        "endDate": "2018-01-08T17:00:00.000+02:00",
+        "completeDate": "2018-01-08T17:04:12.769+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 501,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/501",
+        "state": "closed",
+        "name": "Kurtlar Vadisi",
+        "startDate": "2018-01-10T08:00:00.000+02:00",
+        "endDate": "2018-01-22T17:00:00.000+02:00",
+        "completeDate": "2018-01-22T17:27:03.628+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 508,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/508",
+        "state": "closed",
+        "name": "Arif V 216",
+        "startDate": "2018-01-24T07:55:19.797+02:00",
+        "endDate": "2018-02-05T17:00:00.000+02:00",
+        "completeDate": "2018-02-05T15:54:19.669+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 513,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/513",
+        "state": "closed",
+        "name": "Agents Of Shield",
+        "startDate": "2018-02-07T08:00:00.000+02:00",
+        "endDate": "2018-02-19T17:00:00.000+02:00",
+        "completeDate": "2018-02-19T15:25:06.756+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 517,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/517",
+        "state": "closed",
+        "name": "Black Sails",
+        "startDate": "2018-02-21T08:00:00.000+02:00",
+        "endDate": "2018-03-05T17:00:00.000+02:00",
+        "completeDate": "2018-03-05T16:48:50.172+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 523,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/523",
+        "state": "closed",
+        "name": "Altered Carbon",
+        "startDate": "2018-03-07T07:59:00.000+02:00",
+        "endDate": "2018-03-19T16:59:00.000+02:00",
+        "completeDate": "2018-03-21T16:33:56.592+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 538,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/538",
+        "state": "closed",
+        "name": "Android Sprint 58",
+        "startDate": "2018-04-05T15:47:17.817+03:00",
+        "endDate": "2018-04-19T06:21:00.000+03:00",
+        "completeDate": "2018-04-19T14:22:36.856+03:00",
+        "originBoardId": 17
+      },
+      {
+        "id": 528,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/528",
+        "state": "closed",
+        "name": "La Casa De Papel",
+        "startDate": "2018-03-21T17:41:00.000+02:00",
+        "endDate": "2018-04-13T03:41:00.000+03:00",
+        "completeDate": "2018-04-13T16:52:04.182+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 537,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/537",
+        "state": "closed",
+        "name": "Friends",
+        "startDate": "2018-04-13T16:52:07.388+03:00",
+        "endDate": "2018-04-30T02:52:00.000+03:00",
+        "completeDate": "2018-05-18T14:36:56.699+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 551,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/551",
+        "state": "closed",
+        "name": "Süper Baba",
+        "startDate": "2018-05-28T11:00:00.000+03:00",
+        "endDate": "2018-06-11T09:00:00.000+03:00",
+        "completeDate": "2018-06-09T00:47:53.075+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 572,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/572",
+        "state": "closed",
+        "name": "Kara Şimşek",
+        "startDate": "2018-06-11T16:17:00.000+03:00",
+        "endDate": "2018-06-25T08:14:00.000+03:00",
+        "completeDate": "2018-06-28T11:44:24.448+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 582,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/582",
+        "state": "closed",
+        "name": "Westworld",
+        "startDate": "2018-06-28T11:45:36.150+03:00",
+        "endDate": "2018-07-13T19:45:00.000+03:00",
+        "completeDate": "2018-07-13T19:42:58.857+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 564,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/564",
+        "state": "closed",
+        "name": "Dunkirk",
+        "startDate": "2018-05-21T14:28:10.920+03:00",
+        "endDate": "2018-06-01T00:28:00.000+03:00",
+        "completeDate": "2018-06-21T09:43:03.450+03:00",
+        "originBoardId": 65
+      },
+      {
+        "id": 547,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/547",
+        "state": "closed",
+        "name": "Arka Sokaklar",
+        "startDate": "2018-07-13T19:43:00.242+03:00",
+        "endDate": "2018-07-27T19:43:00.000+03:00",
+        "completeDate": "2018-07-27T17:30:01.812+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 577,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/577",
+        "state": "closed",
+        "name": "Bermuda Üçgeni",
+        "startDate": "2018-06-25T10:55:32.983+03:00",
+        "endDate": "2018-07-06T20:55:00.000+03:00",
+        "completeDate": "2018-07-12T09:42:49.715+03:00",
+        "originBoardId": 65
+      },
+      {
+        "id": 502,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/502",
+        "state": "closed",
+        "name": "Aynalı Tahir",
+        "startDate": "2018-07-27T17:32:54.997+03:00",
+        "endDate": "2018-08-10T17:32:00.000+03:00",
+        "completeDate": "2018-08-27T12:00:08.130+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 603,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/603",
+        "state": "closed",
+        "name": "Öküzgözü",
+        "startDate": "2018-08-13T13:25:34.204+03:00",
+        "endDate": "2018-08-17T23:25:00.000+03:00",
+        "completeDate": "2018-09-10T08:27:30.433+03:00",
+        "originBoardId": 65
+      },
+      {
+        "id": 607,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/607",
+        "state": "closed",
+        "name": "Deli Yürek",
+        "startDate": "2018-08-27T12:02:38.717+03:00",
+        "endDate": "2018-09-10T12:02:00.000+03:00",
+        "completeDate": "2018-09-11T14:20:29.445+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 619,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/619",
+        "state": "closed",
+        "name": "Diriliş Ertuğrul",
+        "startDate": "2018-09-11T14:29:54.227+03:00",
+        "endDate": "2018-09-25T14:29:00.000+03:00",
+        "completeDate": "2018-09-25T14:39:50.856+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 627,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/627",
+        "state": "closed",
+        "name": "Designated Survivor",
+        "startDate": "2018-09-25T14:40:41.439+03:00",
+        "endDate": "2018-10-09T14:40:00.000+03:00",
+        "completeDate": "2018-10-09T12:35:30.533+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 628,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/628",
+        "state": "closed",
+        "name": "Captain Tsubasa",
+        "startDate": "2018-10-01T10:32:41.132+03:00",
+        "endDate": "2018-10-12T20:32:00.000+03:00",
+        "completeDate": "2018-12-06T08:22:16.145+02:00",
+        "originBoardId": 65
+      },
+      {
+        "id": 632,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/632",
+        "state": "closed",
+        "name": "İşler Güçler",
+        "startDate": "2018-10-09T12:36:11.267+03:00",
+        "endDate": "2018-10-23T12:36:00.000+03:00",
+        "completeDate": "2018-10-23T12:36:25.616+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 635,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/635",
+        "state": "closed",
+        "name": "Venom",
+        "startDate": "2018-10-23T12:36:07.103+03:00",
+        "endDate": "2018-11-06T11:36:00.000+02:00",
+        "completeDate": "2018-11-06T10:19:22.705+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 637,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/637",
+        "state": "closed",
+        "name": "Maniac",
+        "startDate": "2018-11-06T09:21:57.162+02:00",
+        "endDate": "2018-11-20T09:21:00.000+02:00",
+        "completeDate": "2018-11-26T11:14:02.870+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 650,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/650",
+        "state": "closed",
+        "name": "Spiderman",
+        "startDate": "2018-11-26T12:06:15.356+02:00",
+        "endDate": "2018-12-10T12:06:00.000+02:00",
+        "completeDate": "2018-12-10T23:48:51.846+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 657,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/657",
+        "state": "closed",
+        "name": "Spiderman 2",
+        "startDate": "2018-12-10T22:49:01.737+02:00",
+        "endDate": "2018-12-24T22:49:00.000+02:00",
+        "completeDate": "2018-12-26T11:19:23.730+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 659,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/659",
+        "state": "closed",
+        "name": "Superman",
+        "startDate": "2018-12-26T10:30:39.273+02:00",
+        "endDate": "2019-01-09T10:30:00.000+02:00",
+        "completeDate": "2019-01-09T15:17:22.348+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 665,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/665",
+        "state": "closed",
+        "name": "Batman",
+        "startDate": "2019-01-09T14:17:44.719+02:00",
+        "endDate": "2019-01-23T14:17:00.000+02:00",
+        "completeDate": "2019-01-23T13:37:27.491+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 670,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/670",
+        "state": "closed",
+        "name": "Wonder Women",
+        "startDate": "2019-01-23T13:07:00.954+02:00",
+        "endDate": "2019-02-06T13:07:00.000+02:00",
+        "completeDate": "2019-02-08T15:04:17.436+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 675,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/675",
+        "state": "closed",
+        "name": "Flash Gordon",
+        "startDate": "2019-02-08T14:04:58.660+02:00",
+        "endDate": "2019-02-22T14:04:00.000+02:00",
+        "completeDate": "2019-02-27T09:35:20.772+02:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 683,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/683",
+        "state": "closed",
+        "name": "Aquaman",
+        "startDate": "2019-02-27T08:39:29.604+02:00",
+        "endDate": "2019-03-13T08:39:00.000+02:00",
+        "completeDate": "2019-03-14T11:28:03.793+02:00",
+        "originBoardId": 84
+      }
+    ]
+  },
+  {
+    "maxResults": 50,
+    "startAt": 120,
+    "isLast": true,
+    "values": [
+      {
+        "id": 687,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/687",
+        "state": "closed",
+        "name": "Spring is coming",
+        "startDate": "2019-03-14T10:28:40.055+02:00",
+        "endDate": "2019-03-28T10:28:00.000+02:00",
+        "completeDate": "2019-04-04T11:56:26.471+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 695,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/695",
+        "state": "closed",
+        "name": "Ninja Turtles",
+        "startDate": "2019-04-04T11:57:39.566+03:00",
+        "endDate": "2019-04-18T11:57:00.000+03:00",
+        "completeDate": "2019-04-29T17:39:36.172+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 702,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/702",
+        "state": "closed",
+        "name": "Game Of Thrones",
+        "startDate": "2019-04-29T17:40:14.381+03:00",
+        "endDate": "2019-05-13T17:40:00.000+03:00",
+        "completeDate": "2019-05-07T09:39:45.053+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 708,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/708",
+        "state": "closed",
+        "name": "Sopranos",
+        "startDate": "2019-05-08T10:00:00.000+03:00",
+        "endDate": "2019-05-21T18:00:00.000+03:00",
+        "completeDate": "2019-05-21T14:31:56.140+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 710,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/710",
+        "state": "closed",
+        "name": "Pandoranın Kutusu",
+        "startDate": "2019-05-22T10:36:00.000+03:00",
+        "endDate": "2019-06-10T18:12:00.000+03:00",
+        "completeDate": "2019-06-11T10:19:06.399+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 732,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/732",
+        "state": "closed",
+        "name": "Godzilla",
+        "startDate": "2019-07-10T10:00:00.000+03:00",
+        "endDate": "2019-07-22T12:30:00.000+03:00",
+        "completeDate": "2019-07-23T11:20:00.610+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 746,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/746",
+        "state": "closed",
+        "name": "Lion King",
+        "startDate": "2019-07-24T09:00:00.000+03:00",
+        "endDate": "2019-08-06T11:30:00.000+03:00",
+        "completeDate": "2019-08-06T10:47:37.843+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 753,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/753",
+        "state": "closed",
+        "name": "Stranger Things",
+        "startDate": "2019-08-07T09:00:00.000+03:00",
+        "endDate": "2019-08-27T10:30:00.000+03:00",
+        "completeDate": "2019-08-27T13:59:04.082+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 764,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/764",
+        "state": "closed",
+        "name": "Mind Hunter",
+        "startDate": "2019-08-27T17:00:41.667+03:00",
+        "endDate": "2019-09-10T14:00:00.000+03:00",
+        "completeDate": "2019-09-10T14:06:03.431+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 719,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/719",
+        "state": "closed",
+        "name": "john wick 3",
+        "startDate": "2019-06-12T09:00:00.000+03:00",
+        "endDate": "2019-06-24T13:00:00.000+03:00",
+        "completeDate": "2019-06-25T10:41:10.370+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 724,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/724",
+        "state": "closed",
+        "name": "X-Men : Dark Phoenix",
+        "startDate": "2019-06-25T16:00:32.894+03:00",
+        "endDate": "2019-07-09T10:00:00.000+03:00",
+        "completeDate": "2019-07-09T10:41:33.584+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 768,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/768",
+        "state": "closed",
+        "name": "Bizimkiler",
+        "startDate": "2019-09-10T16:00:00.000+03:00",
+        "endDate": "2019-09-24T14:00:00.000+03:00",
+        "completeDate": "2019-09-24T13:59:52.403+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 756,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/756",
+        "state": "closed",
+        "name": "deneme",
+        "startDate": "2019-08-07T14:05:17.349+03:00",
+        "endDate": "2019-08-21T08:05:00.000+03:00",
+        "completeDate": "2019-08-07T14:05:33.168+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 757,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/757",
+        "state": "closed",
+        "name": "dememd",
+        "startDate": "2019-08-07T14:06:23.861+03:00",
+        "endDate": "2019-08-21T08:06:00.000+03:00",
+        "completeDate": "2019-08-07T14:06:43.816+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 760,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/760",
+        "state": "closed",
+        "name": "yağmur",
+        "startDate": "2019-08-06T10:00:34.637+03:00",
+        "endDate": "2019-08-07T11:00:00.000+03:00",
+        "completeDate": "2019-08-07T15:32:07.289+03:00",
+        "originBoardId": 84
+      },
+      {
+        "id": 773,
+        "self": "https://dev.foreks.com/jira/rest/agile/1.0/sprint/773",
+        "state": "active",
+        "name": "How I met your mother",
+        "startDate": "2019-09-24T17:00:46.965+03:00",
+        "endDate": "2019-10-08T14:00:00.000+03:00",
+        "originBoardId": 84
+      }
+    ]
+  }
+]
