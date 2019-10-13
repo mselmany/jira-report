@@ -43,11 +43,12 @@
         "extensions": [".js", ".jsx"]
       }
     ],
-    "react-native/sort-styles": ["error", "asc", { "ignoreClassNames": true, "ignoreStyleProperties": false }],
+    // "react-native/sort-styles": [2, "asc", { "ignoreClassNames": true, "ignoreStyleProperties": false }],
     "react-native/split-platform-components": 2,
     "react/no-did-mount-set-state": 2,
     "react/no-did-update-set-state": 2,
     "react/no-direct-mutation-state": 2,
+    "react/jsx-props-no-spreading": 1,
     "react/jsx-uses-vars": 2,
     "react/require-default-props": 1,
     "react/self-closing-comp": 2,
@@ -57,7 +58,7 @@
     "react/forbid-prop-types": [0],
     "react/prefer-stateless-function": 1,
     "react-native/no-unused-styles": 0,
-    "react/no-multi-comp": 1,
+    "react/no-multi-comp": 0,
     "react/jsx-no-bind": 2,
     "react/jsx-no-duplicate-props": 2,
     "react/prop-types": 1,
