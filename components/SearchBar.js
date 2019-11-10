@@ -3,7 +3,7 @@ import styled, { css } from "@emotion/native";
 import { Text } from "react-native";
 import PropTypes from "prop-types";
 
-function SprintButton({ value, index = null, selected = false, onPress }) {
+function SearchBar({ value, index = null, selected = false, onPress }) {
   const isFirst = index === 0;
   const { isCurrent, completeDate, dayLength } = value.__computed;
   return (
@@ -29,14 +29,14 @@ function SprintButton({ value, index = null, selected = false, onPress }) {
   );
 }
 
-export default memo(SprintButton);
+export default memo(SearchBar);
 
-SprintButton.defaultProps = {
+SearchBar.defaultProps = {
   index: null,
   selected: false
 };
 
-SprintButton.propTypes = {
+SearchBar.propTypes = {
   value: PropTypes.object.isRequired,
   index: PropTypes.number,
   selected: PropTypes.bool,

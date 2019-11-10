@@ -9,6 +9,7 @@ function fake(source) {
 }
 
 async function getSprints(page) {
+  console.log("getSprints: ", page);
   const r = await fake(sprints[page]);
   return r;
 }

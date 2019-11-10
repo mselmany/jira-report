@@ -99,7 +99,7 @@
     "no-extra-bind": 2,
     "keyword-spacing": 2,
     "key-spacing": 2,
-    "indent": ["error", 2],
+    // "indent": ["error", 2],
     "func-call-spacing": 2,
     "array-bracket-spacing": 2,
     "block-spacing": 2,

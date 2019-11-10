@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Platform } from "react-native";
 import { createStackNavigator, createBottomTabNavigator } from "react-navigation";
 
