@@ -5,8 +5,6 @@ import { useStore } from "../Providers/StoreProvider";
 
 import SprintButton from "../components/SprintButton";
 import FilterButton from "../components/FilterButton";
-import Accordion from "../components/Accordion";
-import SearchBar from "../components/SearchBar";
 
 export default function HomeScreen() {
   const { pending, filters, sprints, selecteds, selectFilter, selectSprint } = useStore();
@@ -16,35 +14,31 @@ export default function HomeScreen() {
       <Header>{pending ? "Yükleniyor..." : "Jira Report"}</Header>
       {!pending ? (
         <Container>
-          <Accordion header="Filtreler">
-            <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
-              {filters.map((tag, index) => (
-                <FilterButton
-                  tag={tag}
+          <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
+            {filters.map((tag, index) => (
+              <FilterButton
+                tag={tag}
+                index={index}
+                selected={selecteds.filter === tag}
+                key={tag}
+                onPress={selectFilter}
+              />
+            ))}
+          </FilterContainer>
+
+          <SprintsContainer horizontal showsHorizontalScrollIndicator={false}>
+            {sprints
+              .filter((s) => (selecteds.filter ? s.__computed.filterTag === selecteds.filter : true))
+              .map((value, index) => (
+                <SprintButton
+                  value={value}
                   index={index}
-                  selected={selecteds.filter === tag}
-                  key={tag}
-                  onPress={selectFilter}
+                  selected={selecteds.sprint === value.id}
+                  key={value.id}
+                  onPress={selectSprint}
                 />
               ))}
-            </FilterContainer>
-          </Accordion>
-
-          <Accordion header="Sprintler">
-            <SprintsContainer horizontal showsHorizontalScrollIndicator={false}>
-              {sprints
-                .filter((s) => (selecteds.filter ? s.__computed.filterTag === selecteds.filter : true))
-                .map((value, index) => (
-                  <SprintButton
-                    value={value}
-                    index={index}
-                    selected={selecteds.sprint === value.id}
-                    key={value.id}
-                    onPress={selectSprint}
-                  />
-                ))}
-            </SprintsContainer>
-          </Accordion>
+          </SprintsContainer>
         </Container>
       ) : null}
     </MainContainer>
