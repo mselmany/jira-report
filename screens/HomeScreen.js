@@ -14,31 +14,25 @@ export default function HomeScreen() {
       <Header>{pending ? "Yükleniyor..." : "Jira Report"}</Header>
       {!pending ? (
         <Container>
-          <FilterContainer horizontal showsHorizontalScrollIndicator={false}>
-            {filters.map((tag, index) => (
-              <FilterButton
-                tag={tag}
-                index={index}
-                selected={selecteds.filter === tag}
-                key={tag}
-                onPress={selectFilter}
-              />
-            ))}
-          </FilterContainer>
+          <FilterContainer
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            data={filters}
+            renderItem={({ item, index }) => (
+              <FilterButton tag={item} index={index} selected={selecteds.filter === item} onPress={selectFilter} />
+            )}
+            keyExtractor={(tag) => tag}
+          />
 
-          <SprintsContainer horizontal showsHorizontalScrollIndicator={false}>
-            {sprints
-              .filter((s) => (selecteds.filter ? s.__computed.filterTag === selecteds.filter : true))
-              .map((value, index) => (
-                <SprintButton
-                  value={value}
-                  index={index}
-                  selected={selecteds.sprint === value.id}
-                  key={value.id}
-                  onPress={selectSprint}
-                />
-              ))}
-          </SprintsContainer>
+          <SprintsContainer
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            data={sprints.filter((s) => (selecteds.filter ? s.__computed.filterTag === selecteds.filter : true))}
+            renderItem={({ item, index }) => (
+              <SprintButton value={item} index={index} selected={selecteds.sprint === item.id} onPress={selectSprint} />
+            )}
+            keyExtractor={(item) => item.id.toString()}
+          />
         </Container>
       ) : null}
     </MainContainer>
@@ -68,7 +62,7 @@ const Container = styled.View`
   margin: 20px 0;
 `;
 
-const ScrollViewContainer = styled.ScrollView`
+const ScrollViewContainer = styled.FlatList`
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
